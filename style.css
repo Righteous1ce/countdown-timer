@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'merriweather', serif;
+    color: aliceblue;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1464347601390-25e2842a37f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2110&q=80);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 3rem;
+    margin-top: -5rem;
+}
+.coundown-container{
+    display: flex;
+   
+}
+
+.text{
+    
+    font-size: 7rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+    
+}
+
+.countdown-el span{
+    font-size: 1.3rem;
+}
